@@ -7,6 +7,23 @@ module.exports = {
 
     const techsArray = parseStringAsArray(techs);
 
+    // Filtro de tecnologias
+    // Querys do MongoDB
+    const devs = await Dev.find({
+      techs: {
+        $in: techsArray,
+      },      
+      location: {
+        $near: {
+          $geometry: {
+            type: 'Point',
+            coordinates: [longitude, latitude],
+          },
+          $maxDistance: 10000,
+        },
+      },
+    });
+
     return response.json({ devs });
   }
 }
