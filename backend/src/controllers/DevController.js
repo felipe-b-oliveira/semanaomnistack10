@@ -45,5 +45,17 @@ module.exports = {
 
     // continuar
     return response.json(dev);
+  },
+
+  // TODO: Desafio
+  // Atualizar um único Dev (nome, avatar, bio, localizacao e tecnologias)
+  async update() {
+
+  },
+
+  // TODO: Desafio
+  // Deletar um único Dev
+  async destroy() {
+
   }
 }
