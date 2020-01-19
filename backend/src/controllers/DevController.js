@@ -1,7 +1,15 @@
 const axios = require('axios');
 const Dev = require('../models/Dev');
 
+// index, show, store, update, destroy
+
 module.exports = {
+  async index(request, response) {
+    const devs = await Dev.find();
+
+    return response.json(devs);
+  },
+
   async store(request, response) {
     // Forma de fazer debug dentro do node
     // console.log(request.body);
