@@ -7,6 +7,8 @@ import './sidebar.css';
 import './main.css';
 
 function App() {
+  const [devs, setDevs] = useState([]);
+
   // PROGRAMAÇÂO IMPERATIVA
   // Uso de estados, o componente decide seu comportamento de acordo com o estado.
   const [github_username, setGithubUsername] = useState('');
@@ -32,6 +34,17 @@ function App() {
         timeout: 30000,
       }
     )
+  }, []);
+
+  // O array vazio [], indica que o efeito sera executado apenas uma unica vez
+  useEffect(() => {
+    async function loadDevs() {
+      const response = await api.get('/devs');
+
+      setDevs(response.data);
+    }
+
+    loadDevs();
   }, []);
 
   async function handleAddDev(e) {
@@ -107,53 +120,20 @@ function App() {
 
       <main>
         <ul>
-          <li className="dev-item">
-            <header>
-              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
-              <div className="user-info">
-                <strong>Felipe Oliveira</strong>
-                <span>.NET, React</span>
-              </div>
-            </header>
-            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
-            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
-          </li>
-
-          <li className="dev-item">
-            <header>
-              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
-              <div className="user-info">
-                <strong>Felipe Oliveira</strong>
-                <span>.NET, React</span>
-              </div>
-            </header>
-            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
-            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
-          </li>
-
-          <li className="dev-item">
-            <header>
-              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
-              <div className="user-info">
-                <strong>Felipe Oliveira</strong>
-                <span>.NET, React</span>
-              </div>
-            </header>
-            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
-            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
-          </li>
-
-          <li className="dev-item">
-            <header>
-              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
-              <div className="user-info">
-                <strong>Felipe Oliveira</strong>
-                <span>.NET, React</span>
-              </div>
-            </header>
-            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
-            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
-          </li>
+          {/* O Map() percorre um array e retorna uma informação */}
+          {devs.map(dev => (
+            <li key={dev._id} className="dev-item">
+              <header>
+                <img src={dev.avatar_url} alt={dev.name}/>
+                <div className="user-info">
+                  <strong>{dev.name}</strong>
+                  <span>{dev.techs.join(', ')}</span>
+                </div>
+              </header>
+              <p>{dev.bio}</p>
+              <a href={`https://github.com/${dev.github_username}`}>Acessar perfil no Github</a>
+            </li>
+          ))}
         </ul>
       </main>
     </div>
