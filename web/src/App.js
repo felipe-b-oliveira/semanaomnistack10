@@ -48,7 +48,7 @@ function App() {
                 <span>.NET, React</span>
               </div>
             </header>
-            <p>Minha biografia</p>
+            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
             <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
           </li>
 
@@ -60,7 +60,7 @@ function App() {
                 <span>.NET, React</span>
               </div>
             </header>
-            <p>Minha biografia</p>
+            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
             <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
           </li>
 
@@ -72,7 +72,7 @@ function App() {
                 <span>.NET, React</span>
               </div>
             </header>
-            <p>Minha biografia</p>
+            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
             <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
           </li>
 
@@ -84,7 +84,7 @@ function App() {
                 <span>.NET, React</span>
               </div>
             </header>
-            <p>Minha biografia</p>
+            <p>Felipe Oliveira, 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.</p>
             <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
           </li>
         </ul>
