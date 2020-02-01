@@ -36,8 +36,57 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main>
 
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
+              <div className="user-info">
+                <strong>Diego Fernandes</strong>
+                <span>.NET, React</span>
+              </div>
+            </header>
+            <p>Minha biografia</p>
+            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
+              <div className="user-info">
+                <strong>Diego Fernandes</strong>
+                <span>.NET, React</span>
+              </div>
+            </header>
+            <p>Minha biografia</p>
+            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
+              <div className="user-info">
+                <strong>Diego Fernandes</strong>
+                <span>.NET, React</span>
+              </div>
+            </header>
+            <p>Minha biografia</p>
+            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
+              <div className="user-info">
+                <strong>Diego Fernandes</strong>
+                <span>.NET, React</span>
+              </div>
+            </header>
+            <p>Minha biografia</p>
+            <a href="https://github.com/felipe-b-oliveira">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
