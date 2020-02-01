@@ -2,12 +2,13 @@ import React from 'react';
 
 import './global.css';
 import './App.css';
+import './sidebar.css';
 
 function App() {
 
   return (
     <div id='app'>
-      <asside>
+      <aside>
         <strong>Cadastrar</strong>
         <form>
           <div className="input-block">
@@ -20,7 +21,7 @@ function App() {
             <input name="techs" id="techs" required />
           </div>
 
-          <div className="input group">
+          <div className="input-group">
             <div className="input-block">
               <label htmlFor="latitude">Latitude</label>
               <input name="latitude" id="latitude" required />
@@ -34,7 +35,7 @@ function App() {
 
           <button type="submit">Salvar</button>
         </form>
-      </asside>
+      </aside>
       <main>
 
       </main>
