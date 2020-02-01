@@ -31,13 +31,19 @@ function App() {
         timeout: 30000,
       }
     )
-  }, [])
+  }, []);
+
+  async function handleAddDev(e) {
+    e.preventDefault();
+
+    
+  }
 
   return (
     <div id='app'>
       <aside>
         <strong>Cadastrar</strong>
-        <form>
+        <form onSubmit={handleAddDev}>
           <div className="input-block">
             <label htmlFor="github_username">Usuário do Github</label>
             <input 
