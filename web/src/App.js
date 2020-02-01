@@ -4,7 +4,12 @@ function App() {
 
   return (
     <div id='app'>
-      
+      <asside>
+
+      </asside>
+      <main>
+        
+      </main>
     </div>    
   );
 }
