@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './sidebar.css';
+import './main.css';
 
 function App() {
 
@@ -43,7 +44,7 @@ function App() {
             <header>
               <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
               <div className="user-info">
-                <strong>Diego Fernandes</strong>
+                <strong>Felipe Oliveira</strong>
                 <span>.NET, React</span>
               </div>
             </header>
@@ -55,7 +56,7 @@ function App() {
             <header>
               <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
               <div className="user-info">
-                <strong>Diego Fernandes</strong>
+                <strong>Felipe Oliveira</strong>
                 <span>.NET, React</span>
               </div>
             </header>
@@ -67,7 +68,7 @@ function App() {
             <header>
               <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
               <div className="user-info">
-                <strong>Diego Fernandes</strong>
+                <strong>Felipe Oliveira</strong>
                 <span>.NET, React</span>
               </div>
             </header>
@@ -79,7 +80,7 @@ function App() {
             <header>
               <img src="https://avatars3.githubusercontent.com/u/47614568?s=460&v=4" alt="Felipe Oliveira"></img>
               <div className="user-info">
-                <strong>Diego Fernandes</strong>
+                <strong>Felipe Oliveira</strong>
                 <span>.NET, React</span>
               </div>
             </header>
