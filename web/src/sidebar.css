@@ -62,4 +62,9 @@ aside form button[type=submit] {
   font-weight: bold;
   color: #fff;
   cursor: pointer;
+  transition: background 0.5s;
+}
+
+aside form button[ type=submit ]:hover {
+  background: #6931ca;
 }
