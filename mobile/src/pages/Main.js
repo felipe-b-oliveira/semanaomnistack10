@@ -45,9 +45,23 @@ function Main({ navigation }) {
   Keyboard.addListener(`keyboardDidHide`, () => {
     setKeyboardVisible(false);})
 
+  function handleKeyboardOnMapPress () {
+    if (isKeyboardVisible) {
+      setKeyboardVisible(false);
+      Keyboard.dismiss();
+    }
+    else {
+      '';
+    }
+  }
+
   return (
     <>
-    <MapView initialRegion={currentRegion} style={ styles.map }>
+    <MapView 
+      initialRegion={currentRegion} 
+      style={ styles.map }
+      onPress={() => handleKeyboardOnMapPress()}  
+    >
       <Marker coordinate={{ latitude: -22.7604142, longitude: -43.292498 }}>
         <Image 
           style={styles.avatar}
