@@ -12,6 +12,7 @@ function Main({ navigation }) {
   const [devs, setDevs] = useState([]);
   const [currentRegion, setCurrentRegion] = useState(null);
   const [isKeyboardVisible, setKeyboardVisible] = useState(false);
+  const [techs, setTechs] = useState('');
 
   // Localização do usuario
   useEffect(() => {
@@ -44,7 +45,7 @@ function Main({ navigation }) {
       params: {
         latitude,
         longitude,
-        techs: 'ReactJS'
+        techs
       }
     });
 
@@ -115,6 +116,9 @@ function Main({ navigation }) {
         placeholderTextColor="#999"
         autoCapitalize="words"
         autoCorrect={false}
+        value={techs}
+        onChangeText={setTechs}
+        // onChangeText={text => setTechs(text)}
         // onPress={() => handleTest()}
       />
 
