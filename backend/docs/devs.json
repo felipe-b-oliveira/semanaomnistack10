@@ -1,0 +1,147 @@
+[{
+  "_id": {
+    "$oid": "5e3600468866eb26605efce7"
+  },
+  "techs": [
+    "Java",
+    "NodeJS",
+    "HTML",
+    "CSS",
+    "ReactJS",
+    "React Native"
+  ],
+  "github_username": "lucassdr",
+  "name": "Lucas Sodré Teixeira",
+  "avatar_url": "https://avatars1.githubusercontent.com/u/37233271?v=4",
+  "bio": "Olá! Sou Lucas, tenho 23 anos, carioca e bacharel em Sistemas de Informação pela Universidade Unigranrio.\r\nAqui você conhecerá um pouco do meu trabalho.",
+  "location": {
+    "coordinates": [
+      -43.289555,
+      -22.7539676
+    ],
+    "_id": {
+      "$oid": "5e3600468866eb26605efce8"
+    },
+    "type": "Point"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e36010b053c4c0ffc0273c3"
+  },
+  "techs": [
+    "Ruby",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "github_username": "robsonmarques",
+  "name": "Robson Marques",
+  "avatar_url": "https://avatars2.githubusercontent.com/u/861751?v=4",
+  "bio": "Co-founder & CEO @Rocketseat ",
+  "location": {
+    "coordinates": [
+      -43.28114850000001,
+      -22.747503299999998
+    ],
+    "_id": {
+      "$oid": "5e36010b053c4c0ffc0273c4"
+    },
+    "type": "Point"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e5520ed541bf02fe04646af"
+  },
+  "techs": [
+    "VueJS",
+    "ReactJS",
+    "Javascript"
+  ],
+  "github_username": "cleitonsouza",
+  "name": "Cleiton Souza",
+  "avatar_url": "https://avatars1.githubusercontent.com/u/4669899?v=4",
+  "bio": "Co-founder & COO @Rocketseat ",
+  "location": {
+    "coordinates": [
+      -43.2898048,
+      -22.7508224
+    ],
+    "_id": {
+      "$oid": "5e5520ed541bf02fe04646b0"
+    },
+    "type": "Point"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e764e181c9d440000026599"
+  },
+  "techs": [
+    ".NET",
+    "ReactJS"
+  ],
+  "github_username": "felipe-b-oliveira",
+  "name": "Felipe Oliveira",
+  "avatar_url": "https://avatars1.githubusercontent.com/u/47614568?v=4",
+  "bio": null,
+  "location": {
+    "coordinates": [
+      -43.2899392,
+      -22.752096
+    ],
+    "_id": {
+      "$oid": "5e21231cfeeede3234460e1c"
+    },
+    "type": "Point"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e7682edae1b2d3bb8ba38d7"
+  },
+  "techs": [
+    "Javascript",
+    "Angular",
+    "ReactJS"
+  ],
+  "github_username": "momanhaes",
+  "name": "Matheus Manhães",
+  "avatar_url": "https://avatars1.githubusercontent.com/u/45300871?v=4",
+  "bio": "Bacharel em Sistemas de Informação. Aqui tem parte do que gosto de fazer nas horas vagas.",
+  "location": {
+    "coordinates": [
+      -43.2909688,
+      -22.7546394
+    ],
+    "_id": {
+      "$oid": "5e7682edae1b2d3bb8ba38d8"
+    },
+    "type": "Point"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e768b453b63c416d0fdb9c2"
+  },
+  "techs": [
+    "Node",
+    "ReactJS"
+  ],
+  "github_username": "pellizzetti",
+  "name": "Guilherme Pellizzetti",
+  "avatar_url": "https://avatars3.githubusercontent.com/u/16545335?v=4",
+  "bio": "Prepared to be a lifelong learner! I'm self-taught and a quick learner ★ Passionate about analyzing and testing data as a lever for business growth ★",
+  "location": {
+    "coordinates": [
+      -43.2911033,
+      -22.7539092
+    ],
+    "_id": {
+      "$oid": "5e768b453b63c416d0fdb9c3"
+    },
+    "type": "Point"
+  },
+  "__v": 0
+}]
